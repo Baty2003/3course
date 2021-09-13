@@ -1,0 +1,27 @@
+body {
+    width: 380px;
+    margin: 0;
+    padding: 0 10px;
+
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+p {
+    color: #888888;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+.cite {
+    padding: 5px 10px;
+
+    color:  #ffffff;
+    font-style: italic;
+
+    background-color: #9999d6;
+    border-left: 2px solid #484ace;
+}

@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.letter {
+    color: red;
+    font-size: 200%;
+    font-family: serif;
+}
