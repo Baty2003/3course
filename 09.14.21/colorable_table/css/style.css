@@ -1,0 +1,44 @@
+body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px black solid;
+}
+
+th {
+    color: darkblue;
+    border: 1px black solid;
+    padding: 5px;
+    background: lightcyan;
+
+}
+
+ td {
+     color: brown;
+     border: 1px lightgray solid;
+     padding: 5px;
+     background: lightyellow;
+ }
+
+ .cell1 {
+     text-align: center;
+ }
+
+ .column2 {
+     text-align: left;
+ }
+
+ .column3 {
+     text-align: left;
+ }
+ caption {
+     caption-side: bottom;
+     text-align: right;
+ }

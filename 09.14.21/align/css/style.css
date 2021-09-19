@@ -1,0 +1,42 @@
+body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px black solid;
+}
+
+th {
+    border: 1px black solid;
+    padding: 5px;
+
+}
+
+ td {
+     border: 1px lightgray solid;
+     padding: 5px;
+
+ }
+
+ .cell1 {
+     text-align: center;
+     padding-bottom: 10%;
+ }
+
+ .column2 {
+     text-align: right;
+ }
+
+ .column3 {
+     text-align: center;
+ }
+ caption {
+     caption-side: bottom;
+     text-align: right;
+ }
