@@ -1,0 +1,28 @@
+body {
+    width: 400px;
+    margin: 0;
+    padding: 0 10px;
+
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+ table {
+     border-collapse: collapse;
+     border: 2px solid #09081d ;
+ }
+
+ td {
+     border: 1px solid lightgray;
+     padding: 5px;
+
+ }
+
+ th {
+     border: 1px solid black;
+     padding: 10px;
+ }
+ 
+ caption {
+     caption-side: bottom;
+     text-align: right;
+ }

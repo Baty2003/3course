@@ -1,0 +1,28 @@
+body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+ td {
+     border-color: lightgray;
+     padding: 10px;
+
+ }
+
+table {
+    border: 1px black solid;
+}
+
+ td {
+     border: 1px solid black;
+     padding: 10px;
+ }
+ 
+ caption {
+     caption-side: bottom;
+     text-align: right;
+ }
