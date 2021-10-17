@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="../../source/favicon.png" type="image/x-icon">
+    <title>Итоговая форма</title>
+</head>
+    <body>
+            <main>
+                <form oninput="RatingOut.value=rating.value">
+                    <fieldset>
+                        <legend>Личные данные</legend>
+                        <label class="half-width" for="IdRev">
+                            ID Отзыва
+                            <input type="text" id="IdRev" disabled value="12345">
+                        </label>
+                        <label class="half-width" for="nameTraveler">
+                            Имя путешественника
+                            <input type="text" name="nameTravelerField" id="nameTraveler" value="Кекс">
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Отзыв о поездке</legend>
+                        <label class="half-width" for="countryVisit">
+                            Страна визита
+                            <input type="text" name="countryVisitField" id="countryVisit" value="Норвегия">
+                        </label>
+
+                        <label class="half-width" for="city">
+                            Город
+                            <select name="cityField" id="city" disabled>
+                                <option value="">Осло</option>
+                            </select>
+                        </label>
+
+                        <label class="half-width" for="rating">
+                            Оценка Поездки
+                            <br>
+                            0<input type="range" name="ratingField" id="rating" min="0" max="10">10
+                        </label>
+                        <output id="RatingOut"></output>
+
+
+                        <label for="review">
+                            Текст отзыва
+                            <textarea name="reviewField" id="review" cols="30" rows="4" placeholder="Это было просто мяу"></textarea>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Оценка отеля</legend>
+                        <label class="half-width" for="nameHotel">
+                            Название отеля
+                            <input type="text" id="nameHotel" placeholder="Название по-английский">
+                        </label>
+                        <label class="half-width" for="dateEntry">
+                            Дата въезда
+                            <input type="text" name="dataEntryField" id="dateEntry" placeholder="В формате дд-мм-гггг">
+                        </label>
+
+                        <label class="half-width" for="colorBed">
+                            Цвет кровати
+                            <input type="color" name="colorBedField" id="colorBed">
+                        </label>
+
+                        <label class="half-width" for="ratingDinner">
+                            Оценка обедов
+                            <select name="ratingDinnerField" id="ratingDinner" disabled>
+                                <option value="">Подушечки оближешь</option>
+                            </select>
+                        </label>
+
+                        <label for="theBestFish">
+                            Самая вкусная рыба
+                            <select name="theBestFishField" id="theBestFish" size="6" multiple>
+                                <option value="Norwegian salmon">Норвежский лосось</option>
+                                <option value="lancet fish">Зубатка</option>
+                                <option value="Sea bass">Морской окунь</option>
+                                <option value="Crucian carp">Карась</option>
+                                <option value="Mirror carp">Зеркальный карп</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                    <div class="buttons">
+                        <input type="submit" name="reviewSendButton" value="Оценить">
+                        <input type="reset" name="resetbutton" value="Сбросить">
+                    </div>
+                </form>
+            </main>
+    </body>
+</html>

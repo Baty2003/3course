@@ -1,0 +1,19 @@
+em{
+  display: none;
+}
+
+
+table {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+tr:hover{
+  background-color: #fcf8e3 ;
+}
+tr:hover em{
+  display: inline;
+}
+tr:hover strong{
+  background-color: #0088cc;
+}
+

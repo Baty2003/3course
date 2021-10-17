@@ -1,0 +1,20 @@
+table{
+    border-collapse: collapse;
+    border-spacing: 5px;
+    border: 6px solid black;
+}
+td {
+    border: 3px solid lightgray;
+}
+.horizntal td {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+.indent td {
+    padding: 5px;
+    padding-right: 30px;
+}
+table {
+    border-spacing: 5px;
+}

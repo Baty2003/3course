@@ -1,0 +1,11 @@
+.hit {
+    background-color: white;
+}
+
+.failure {
+    background-color: yellow;
+}
+
+.miss {
+    background-color: red;
+}

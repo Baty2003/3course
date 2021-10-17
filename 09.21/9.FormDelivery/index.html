@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="../../source/favicon.png" type="image/x-icon">
+    <title>Форма доставки</title>
+</head>
+<body>
+<main>
+    <form action="">
+        <label for="Login">Имя</label>
+        <input type="text" name="LoginField" id="Login" required>
+
+        <label for="AddDelivery">Адрес доставки</label>
+        <textarea name="AddresDeliveryField" id="AddDelivery" cols="20" rows="2" required></textarea>
+
+        <label class="half-width" for="dateDelivery">
+            Дата доставки
+            <input type="date" name="dateDeliveryField" id="dateDelivery" required>
+        </label>
+
+        <label class="half-width" for="timeDelivery">
+            Время доставки
+            <input type="time" name="timeDeliveryField" id="timeDelivery" required>
+        </label>
+
+        <div class="buttoncenter">
+            <input type="submit" name="buttonMakeOrder" value="Заказать">
+        </div>
+
+
+    </form>
+</main>
+</body>
+</html>

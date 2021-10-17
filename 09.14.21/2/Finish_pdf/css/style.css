@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    width: 800px;
+}
+
+.tabcap {
+    font-size: 11px;
+    margin-bottom: 0;
+}
+
+.tabcapbottom {
+    font-size: 11px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+.row1 {
+    text-align: left;
+}
+.row2 {
+    padding-left: 50px;
+}
+
+.row3 {
+    padding-left: 200px;
+}
+
+.cell2 {
+    padding-right: 65px;
+}
+
+
+
+td .row2v2, .row3v2 {
+    padding-left: 40px;
+}
+
+.row1v2 {
+    text-align: left;
+}
+
+.col {
+    padding-left: 40px;
+}
