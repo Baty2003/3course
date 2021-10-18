@@ -1,35 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="../../source/favicon.png" type="image/x-icon">
-    <title>Профиль</title>
-    <style>
-        label {
-            display:block;
-        }
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="../../source/favicon.png" type="image/x-icon">
+        <title>Профиль</title>
 
-        html,body{
-            margin:0;
-            padding:0;
-        }
-        body{
-            width:350px;
-            padding: 10px 20px;
-            font-size: 14px;
-            line-height: 1.5;
-            font-family: Arial, sans-serif;
-            color: black;
-        }
-        h1{
-            margin:0;
-        }
-    </style>
-
-</head>
+    </head>
     <body>
         <main>
             <h1>Профиль</h1>
@@ -40,7 +19,7 @@
                     Ваш пол:
                     <input id="male" type="checkbox" value="Мужской">
                     Мужской
-                    <input id="female" type="checkbox" value="Женский">
+                    <input id="female" type="checkbox" value="Женский" checked>
                     Женский
                 </label>
 
@@ -48,7 +27,7 @@
                     Месяц и год рождения:
                     <br>
                     <select name="monthField" id="selectMonth">
-                        <option value="January">Январь</option>
+                        <option value="January" selected>Январь</option>
                         <option value="February">Февраль</option>
                         <option value="March">Март</option>
                         <option value="April">Апрель</option>
@@ -63,7 +42,7 @@
                     </select>
 
                     <select name="yearField" id="selectYear">
-                        <option value="1990">1990</option>
+                        <option value="1990" selected>1990</option>
                         <option value="1991">1991</option>
                         <option value="1992">1992</option>
                         <option value="1993">1993</option>

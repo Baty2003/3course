@@ -1,0 +1,10 @@
+h1 {
+    font-size: 18px;
+}
+td {
+    padding-bottom: 10px;
+}
+label{
+    display: block;
+    margin-bottom: 15px;
+}

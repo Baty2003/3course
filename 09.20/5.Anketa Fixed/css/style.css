@@ -1,0 +1,7 @@
+input[type="submit"],select{
+    display: block;
+    margin-top: 10px;
+}
+body {
+    width: 550px;
+}
