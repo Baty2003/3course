@@ -1,0 +1,22 @@
+.button{
+    border: 2px solid gold;
+    border-radius: 5px;
+    background-color: #0088cc;
+    color: white;
+}
+
+.button-send{
+    transform: rotate(90deg);
+    background: linear-gradient(60deg,red, pink);
+}
+
+.button-clear{
+    transform: rotate(45deg);
+    background: linear-gradient(red, yellow, blue, orange);
+}
+
+.button-navigation{
+    margin-top: 15px;
+    transform: rotate(-180deg);
+    background: linear-gradient(white,#0039A6,#D52B1E);
+}

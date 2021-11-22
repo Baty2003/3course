@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="../../../source/favicon.png" type="image/x-icon">
+    <title>Списки и числовые значения</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <label for="Login">Имя</label>
+            <input type="text" name="LoginField" id="Login" value="Кекс" required>
+
+            <label for="AddDelivery">Адрес доставки</label>
+            <textarea name="AddresDeliveryField" id="AddDelivery" cols="20" rows="2" required>ул. Хвостенко, д.1</textarea>
+
+            <label class="half-width" for="dateDelivery">
+                Дата доставки
+                <input type="date" name="dateDeliveryField" id="dateDelivery" value="2014-12-12" required>
+            </label>
+
+            <label class="half-width" for="timeDelivery">
+                Время доставки
+                <input type="time" name="timeDeliveryField" id="timeDelivery" value="12:00:00" required>
+            </label>
+
+            <label class="half-width" for="Dishe">
+                Блюдо
+                <input class="half-width" type="text" list="Dishes" name="Dishes" id="Dishe" value="Chicken" required>
+                <datalist id="Dishes">
+                    <option value="Chicken">Курица</option>
+                    <option value="Meet">Мясо</option>
+                    <option value="Fish">Рыба</option>
+                    <option value="Turkey">Индейка</option>
+                    <option value="Mice">Мыши</option>
+                    <option value="Milk">Молоко</option>
+                </datalist>
+            </label>
+
+            <label class="half-width" for="countDishes">
+                Количество
+                <input class="half-width" type="number" name="countDishesField" id="countDishes" min="5" max="50" step="5">
+            </label>
+
+
+
+            <div class="buttoncenter">
+                <input type="submit" value="Заказать">
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    width: 70%;
+    margin:0 auto;
+}
+
+p{
+    text-align: left;
+}
+
+
+
+figure{
+    float: right;
+    padding: 10px;
+}
+
+h1{
+    font-size: 32px;
+}
+
+table{
+    border: 1px solid black;
+}
+
+td,th{
+    border: 1px solid black;
+}
+
+h1,h2,h3{
+    margin-top: 1.5em;
+    clear: right;
+}
+
+img{
+    width: 70%;
+}
+
+
+
+figcaption{
+    font-style: italic;
+}
+
+figure {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+

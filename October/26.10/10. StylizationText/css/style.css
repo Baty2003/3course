@@ -1,0 +1,23 @@
+body{
+    width: 400px;
+}
+
+li:first-child span{
+    font-style: italic;
+}
+
+li:nth-child(2) span{
+    text-transform: uppercase;
+}
+
+li:last-child{
+    text-decoration: underline;
+}
+
+
+.highlight{
+    font-size: 20px;
+    padding: 10px;
+    background-color: #3f51b5;
+    color:#ffffff;
+}

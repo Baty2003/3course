@@ -1,0 +1,38 @@
+body {
+    font-size: 20px;
+    font-family: "Arial", sans-serif;
+
+    background: #ffffff url("../../2. Text-align/img/bg-page.png") no-repeat top center;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+
+.page-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.blog-navigation {
+    margin-bottom: 30px;
+    padding: 20px;
+
+    color: #ffffff;
+
+    background-color: #4470c4;
+    border: 5px solid #2d508f;
+}
+
+.blog-navigation a{
+    color: white;
+}
+
+footer {
+    margin-top: 30px;
+}

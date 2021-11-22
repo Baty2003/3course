@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="../../../source/favicon.png" type="image/x-icon">
+    <title>Форма персональных данных</title>
+</head>
+<body>
+<main>
+
+    <form>
+        <fieldset>
+            <legend>Заявление на получение визы</legend>
+
+            <label for="idPas">
+                Номер котопаспорта
+                <input type="text" name="idPasField" id="idPas" placeholder="Формат номер ХХХ-ХХХХХ" pattern="[0-9]{3}-[0-9]{5}" autocomplete="off">
+            </label>
+
+
+            <label for="numPhone">
+                Номер телефона
+                <input type="text" name="numPhoneField" id="numPhone"  placeholder="Формат номера Х-ХХХ-ХХХ"
+                       pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" tabindex="2">
+            </label>
+
+            <label class="half-width" for="email">
+                Email
+                <input type="email" name="emailField" id="email" required autocomplete="on" tabindex="3">
+            </label>
+
+            <label class="half-width" for="perCite">
+                Личный сайт
+                <input type="url" name="perCityField" id="perCite" required readonly>
+            </label>
+
+            <label class="one-third-width" for="color">
+                Окрас
+                <input type="color" name="colorField" id="color">
+            </label>
+
+            <label class="half-width" for="favFood">
+                Любимая еда
+                <select name="fabFoodField" id="favFood" disabled tabindex="1">
+                    <optgroup label="Var1">
+                        <option value="Fish">Fish</option>
+                        <option value="Chicken">Chicken</option>
+                    </optgroup>
+
+                    <optgroup label="Var2">
+                        <option value="Milk">Milk</option>
+                        <option value="Cookies">Cookies</option>
+                    </optgroup>
+                </select>
+            </label>
+
+        </fieldset>
+        <div class="buttons">
+            <input type="submit" value="Оформить">
+        </div>
+    </form>
+
+</main>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body {
+  padding: 20px;
+}
+
+.block {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+input[type="text"] {
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 16px;
+  color: #666666;
+  border: 2px solid black;
+  box-sizing: border-box;
+}

@@ -1,0 +1,16 @@
+form input:focus{
+    border-color: #0088cc;
+}
+
+input[required]{
+    background-color: #fcf8e3;
+}
+
+input[type="password"]{
+    background-color: #f2dede;
+}
+
+input[type="submit"]{
+    border-color: green;
+}
+
